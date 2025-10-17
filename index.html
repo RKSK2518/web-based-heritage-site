@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Culture & Heritage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<script src="script.js"></script>
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">Cultura</div>
+    <div class="nav-links">
+      <a onclick="showSection('home')">Home</a>
+      <a onclick="showSection('places')">Cultural Places</a>
+      <a onclick="showSection('books')">Cultural Books</a>
+      <a onclick="showSection('login')">Login</a>
+    </div>
+  </nav>
+
+  <!-- Sections -->
+  <div id="home" class="section active">
+    <section class="hero">
+      <h1>Explore the Rich Culture & Heritage</h1>
+      <p>Discover ancient places, traditions, and cultural books</p>
+      <div>
+        <button class="btn" onclick="showSection('places')">Visit Places</button>
+        <button class="btn" onclick="showSection('books')">Cultural Books</button>
+        <button class="btn" onclick="showSection('login')">Login</button>
+      </div>
+    </section>
+
+
+
+
+
+    <section class="home-images">
+  <h2>Explore Cultural Highlights</h2>
+  <div class="image-grid">
+    <div class="img-box">
+      <img src="images.jpg" alt="Culture 1">
+    </div>
+    <div class="img-box">
+      <img src="img1.jpg" alt="Culture 2">
+    </div>
+    <div class="img-box">
+      <img src="img2.jpg" alt="Culture 3">
+    </div>
+    <div class="img-box">
+      <img src="place5.jpg" alt="Culture 4">
+    </div>
+  </div>
+</section>
+
+
+
+
+
+    <section class="intro">
+      <h2>Why Explore Culture?</h2>
+      <p>Understanding our heritage helps preserve the past and inspire the future. Learn about traditions, festivals, and historical sites.</p>
+    </section>
+  </div>
+
+  <div id="places" class="section">
+    <h2 class="section-title">Famous Cultural Places</h2>
+    <div class="gallery">
+      <img src="place1.jpg">
+      <img src="place2.jpg">
+      <img src="place3.jpg">
+      <img src="place4.jpg">
+      <img src="place5.jpg">
+      <img src="Taj-Mahal.jpg">
+    </div>
+  </div>
+
+  <div id="books" class="section">
+    <h2 class="section-title">Cultural Books</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="samved.png" alt="Book 1">
+        <h3>Indian Culture & Traditions</h3>
+      </div>
+      <div class="card">
+        <img src="ved1.jpg" alt="Book 2">
+        <h3>Heritage Sites of India</h3>
+      </div>
+      <div class="card">
+        <img src="Rigveda-Image.png" alt="Book 3">
+        <h3>Festivals and Art Forms</h3>
+      </div>
+      <div class="card">
+        <img src="ved3.jpg" alt="Book 4">
+        <h3>Indian Temples & Architecture</h3>
+      </div>
+    </div>
+  </div>
+
+  <div id="login" class="section">
+    <div class="login-form">
+      <h2>Login</h2>
+      <form>
+        <input type="text" placeholder="Username" required>
+        <input type="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Cultura. All Rights Reserved.
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
